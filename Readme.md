@@ -12,7 +12,8 @@ You can install dependencies via:
 
 ```bash
 pip install torch==1.12.1 torchmetrics==0.10.3 scikit-learn==1.0.2 scipy==1.7.3
-## Dataset Preparation
+```bash
+### Dataset Preparation
 
 Download the source and target datasets from:
 
@@ -22,7 +23,7 @@ After downloading, extract the files and place them into the `datasets/` directo
 
 ### Directory Structure
 
-```bash
+
 datasets/
 ├── Pavia_7gt
 ├── PaviaC
